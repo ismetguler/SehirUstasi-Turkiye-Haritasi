@@ -57,5 +57,4 @@ Linkten Oyunu İndirebilirsiniz! https://play.google.com/store/apps/details?id=c
 ## 🧑‍💻 İletişim ve Lisans
 Bu proje Ismet Guler tarafından geliştirilmiş olup açık kaynaklıdır.
 
-* **GitHub:** [@ismetguler](https://github.com/ismetguler)
-* **Lisans:** Proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
+* **GitHub:** [@ismetguler](https://github.com/ismetguler).
