@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Şehir Ustası</string>
+
+    <string name="default_web_client_id">33771294453-0afneg8oa71c7fg4cg1m1jn5ou2i5jtk.apps.googleusercontent.com</string>
+
+    <string name="question_number_text">Soru: %1$d</string>
+    <string name="score_text">Puan: %1$d</string>
+    <string name="high_score_in_game_text">Rekor: %1$d</string>
+    <string name="city_image_description">Şehir manzarası</string>
+    <string name="heart_description">Can göstergesi</string>
+
+    <string name="fifty_fifty_button_text_dynamic">50/50 Joker (%1$d Puan)</string>
+    <string name="fifty_fifty_confirm_text">50/50 jokerini kullanmak için %1$d puan harcamak istediğine emin misin?</string>
+    <string name="fifty_fifty_confirm_yes_text">Evet, Kullan</string>
+    <string name="fifty_fifty_confirm_no_text">Hayır, Vazgeç</string>
+
+    <string name="hint_button_text_dynamic">İpucu Joker (%1$d Puan)</string>
+    <string name="hint_confirm_text">İpucu jokerini kullanmak için %1$d puan harcamak istediğine emin misin?</string>
+    <string name="hint_confirm_yes_text">Evet, Göster</string>
+    <string name="hint_confirm_no_text">Hayır, Vazgeç</string>
+    <string name="hint_display_text">İpucu: %1$s</string>
+
+    <string name="no_scores_found">Henüz skor bulunamadı veya yüklenemedi.</string>
+    <string name="game_over_message">Oyun Bitti!</string>
+    <string name="continue_with_score_text">75 Puan Harcayıp Devam Et</string>
+    <string name="restart_game_on_wrong_answer_text">Yeni Oyun Başlat</string>
+    <string name="go_to_main_menu_text">Ana Menüye Dön</string>
+    <string name="wrong_answer_with_correct_and_high_score">Yanlış cevap! Doğru cevap: %1$s. Doğru Bilinen Rekorun: %2$d</string>
+
+    <string name="final_result_text">Tebrikler! %1$d Soru Bildin!</string>
+    <string name="high_score_end_text">En Yüksek Doğru Cevap Sayınız: %1$d</string>
+    <string name="restart_game_text">Yeniden Oyna</string>
+    <string name="main_menu_text">Ana Menü</string>
+    <string name="show_leaderboard_text">Liderlik Tablosu</string>
+    <string name="question_count_text">Soru: %1$d/%2$d | Rekor: %3$d</string>
+    <string name="city_guess_prompt">Hangi şehir: %1$s?</string>
+    <string name="welcome_message_splash">Şehir Ustası Oyununa Hoş Geldiniz</string>
+    <string name="about_game_button_text">Oyun Hakkında</string>
+    <string name="about_game_title">Oyun Hakkında</string>
+    <string name="about_game_text">Bu oyun, Türkiye şehirlerini görsel ipuçlarıyla tahmin etmenizi veya harita üzerinde doğru konumlarını işaretlemenizi amaçlar.\n\nHer iki modda da doğru cevaplar belirli puan kazandırır (ilk 10 soru 10 puan, sonraki 10 soru 15 puan, sonrası 20 puan). Yanlış cevap verdiğinizde can kaybedersiniz. Tüm canlarınız bittiğinde 75 puan karşılığında oyuna devam edebilir veya baştan başlayabilirsiniz.\n\n50/50 jokerinin maliyeti her kullanımda artar (50, 75, 100 puan şeklinde). İpucu jokerinin maliyeti de her kullanımda artar (25, 35, 45 puan şeklinde).\n\nKeyifli tahminler dileriz!</string>
+    <string name="watch_ad_to_continue">Reklam İzle, %1$d Can Kazan</string>
+    <string name="back_button_text">Geri Dön</string>
+    <string name="sign_out_button_text">Çıkış Yap (%1$s)</string>
+    <string name="sign_in_google_text">Google ile Giriş Yap</string>
+    <string name="play_as_guest_text">Misafir Olarak Oyna</string>
+    <string name="continue_with_score_insufficient_text">Devam Et (Yetersiz Puan: %1$d)</string>
+    <string name="score_text_puan">Puan: %d</string> <string name="question_counter_text">Soru: %d/81</string>
+    <string name="leaderboard_title">LİDERLİK TABLOSU</string>
+    <string name="back_to_main_menu_text">Ana Menüye Dön</string>
+    <string name="fifty_fifty_max_usage">50/50 jokerini maksimum 2 kez kullanabilirsiniz!</string>
+    <string name="fifty_fifty_insufficient_score">50/50 Joker\'i kullanmak için en az %1$d puana ihtiyacın var! Mevcut: %2$d</string>
+    <string name="hint_max_usage">İpucu jokerini maksimum 2 kez kullanabilirsiniz!</string>
+    <string name="hint_insufficient_score">İpucu Joker\'i kullanmak için en az %1$d puana ihtiyacın var! Mevcut: %2$d</string>
+    <string name="score_and_question_text">Puan: %1$d | Soru: %2$d/81</string>
+    <string name="heart_icon_description">Can İkonu</string>
+</resources>

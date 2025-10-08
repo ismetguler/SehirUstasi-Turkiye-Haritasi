@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color> <color name="white">#FFFFFFFF</color> <color name="gray_disabled">#CCCCCC</color>
+    <color name="green_correct">#4CAF50</color>
+    <color name="red_wrong">#FF6666</color>
+    <color name="orange_hint">#FF9800</color>
+    <color name="background_end">#2196F3</color>
+    <color name="my_red_color">#FF0000</color>
+    <color name="orange">#FFA500</color>
+    <color name="dark_grey">#333333</color>
+    <color name="red_heart">#FF0000</color>
+    <color name="my_primary_color">#4CAF50</color>
+    <color name="correct_city_color">#A04CAF50</color>  <color name="wrong_city_color">#A0FF6666</color>    <color name="default_city_color">#A0888888</color>  <color name="highlight_city_color">#A0FF9800</color> <color name="city_outline_color">#FF000000</color>  <color name="city_name_text_color">#FF000000</color> <color name="map_background_color">#FFFFFFFF</color> <color name="correct_color">#00FF00</color>
+    <color name="wrong_color">#FF0000</color>
+    <color name="my_error_color">#B00020</color>
+    <color name="blue_button">#007BFF</color>
+    <color name="gray_heart_empty">#FF888888</color>
+    <color name="correct_location_color">#2196F3</color> <!-- Yanlış bilindiğinde doğru şehrin gösterileceği renk (mavi) -->
+
+    <!-- Kalp İkon Renkleri -->
+</resources>

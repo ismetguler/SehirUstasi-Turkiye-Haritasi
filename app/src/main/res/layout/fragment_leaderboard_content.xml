@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ProgressBar
+        android:id="@+id/progressBarLeaderboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewNoScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liderlik tablosunda henüz skor yok."
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewLeaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:clipToPadding="false"
+        tools:listitem="@layout/item_leaderboard_score"/>
+
+</LinearLayout>

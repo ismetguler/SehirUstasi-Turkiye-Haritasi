@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MapGameOverActivity">
+
+    <TextView
+        android:id="@+id/textViewGameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oyun Bitti!"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHorizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/> <TextView
+    android:id="@+id/textViewGuessesThisRound"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Bu turda bildiğin şehir: 0"
+    android:textColor="@color/white"
+    android:textSize="24sp"
+    android:textStyle="italic"
+    app:layout_constraintHorizontal_chainStyle="packed"
+    app:layout_constraintEnd_toStartOf="@+id/textViewMaxRecord"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewGameOver"
+    app:layout_constraintBottom_toTopOf="@+id/buttonPlayAgain"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewMaxRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekorun: 0"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewGuessesThisRound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewGuessesThisRound"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewGuessesThisRound"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/buttonPlayAgain"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Yeniden Oyna"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
+        android:textSize="20sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGuessesThisRound"
+        app:layout_constraintBottom_toTopOf="@+id/buttonExitToMenu"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonExitToMenu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Menüye Dön"
+        android:backgroundTint="@color/my_error_color"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
+        android:textSize="20sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlayAgain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

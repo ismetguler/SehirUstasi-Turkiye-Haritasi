@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_oyun"
+    android:fitsSystemWindows="true"
+    tools:context=".AboutGameActivity">
+
+
+    <TextView
+        android:id="@+id/textViewAboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oyun Hakkında"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAboutContent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:scrollbars="vertical"
+        android:text="Bu oyun, Türkiye şehirlerini görsel ipuçlarıyla tahmin etmenizi veya harita üzerinde doğru konumlarını işaretlemenizi amaçlar.\n\nHer iki modda da doğru cevaplar belirli puan kazandırır (ilk 10 soru 10 puan, sonraki 10 soru 15 puan, sonrası 20 puan). Yanlış cevap verdiğinizde can kaybedersiniz. Tüm canlarınız bittiğinde 75 puan karşılığında oyuna devam edebilir veya baştan başlayabilirsiniz.\n\n50/50 jokerinin maliyeti her kullanımda artar (50, 75, 100 puan şeklinde). İpucu jokerinin maliyeti de her kullanımda artar (25, 35, 45 puan şeklinde).\n\nKeyifli tahminler dileriz!\n\nGeliştiriciler: İsmet Güler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAboutTitle" />
+    <Button
+        android:id="@+id/buttonBackFromAboutGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geri Dön"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background_small"
+        app:backgroundTint="@color/red_wrong"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
