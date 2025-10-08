@@ -50,7 +50,7 @@ Projeyi yerel ortamınızda sorunsuz çalıştırmak için aşağıdaki adımlar
 ## 🔗 Uygulamayı İndir
 Uygulama mağazalarında yayınlandığında:
 
-[![Google Play'de İndir](https://play.google.com/store/apps/details?id=com.ismetguler.sehirtahmin)
+Linkten Oyunu İndirebilirsiniz! https://play.google.com/store/apps/details?id=com.ismetguler.sehirtahmin
 
 ---
 
